@@ -1,0 +1,5 @@
+.logof {
+  height: 30px; /* Ajusta este valor al tamaño que necesites */
+  width: auto; /* Mantiene la proporción */
+  margin-right: 8px; /* Opcional: separación entre logo y texto */
+}

@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import "../../assets/font-awesome/css/Header.css";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -25,12 +26,14 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
-              <span className="logo-name" style={{ color: theme.text }}>
-                {greeting.logo_name}
-              </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              <img
+                src={require("../../assets/images/logo.png")}
+                alt="Logo"
+                className="logof"
+              />
+              <span style={{ color: theme.text }}>{greeting.logo_name}</span>
             </NavLink>
+
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
@@ -84,19 +87,8 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li>
-              <li>
+
+              {/* <li>
                 <NavLink
                   to="/contact"
                   tag={Link}
@@ -107,7 +99,7 @@ class Header extends Component {
                 >
                   Contact Me
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </header>
         </div>

@@ -2,83 +2,65 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Franklin's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Creativo y curioso desde niño, nací el 10 de octubre de 1998. Tras graduarme en Gastronomía en la 'Academia Profesional Gourmet' y emprender mi propio negocio, reencontré mi pasión por el arte digital y la edición cuando me hice creador de contenido en Twitch. Hoy estudio Multimedia y Producción Audiovisual en la Universidad Estatal de Milagro, combinando arte, tecnología y visión creativa.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Franklin Pazmiño Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://franklin.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Franklin Pazmiño",
+  logo_name: "ByFrank97",
+  nickname: "ByFrank97",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Creativo y curioso desde niño, nací el 10 de octubre de 1998. Tras graduarme en Gastronomía en la 'Academia Profesional Gourmet' y emprender mi propio negocio, reencontré mi pasión por el arte digital y la edición cuando me hice creador de contenido en Twitch. Hoy estudio Multimedia y Producción Audiovisual en la Universidad Estatal de Milagro, combinando arte, tecnología y visión creativa.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://sites.google.com/unemi.edu.ec/byfrank98/sobre-m%C3%AD?authuser=0",
+  portfolio_repository: "https://github.com/ByFrank97",
+  githubProfile: "https://github.com/ByFrank97",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
-  {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/@ByFrank98",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
+    name: "Github",
+    link: "https://github.com/ByFrank97",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+
+  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto: frankrpec@gmail.com ",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/byfrank98",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/byfrank98",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,216 +69,14 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Diseño de interfaz de usuario altamente atractiva para aplicaciones móviles y web",
+        "⚡ Personalización de diseños de logotipos y construcción de logotipos desde cero",
+        "⚡ Creación del flujo de funcionalidades de la aplicación para optimizar la experiencia del usuario.",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -311,11 +91,89 @@ const skills = {
             color: "#FF7C00",
           },
         },
+      ],
+    },
+    {
+      title: "Graphic Design",
+      fileName: "GraphicDesignImg",
+      skills: [
+        "⚡ Diseño gráfico de piezas publicitarias digitales e impresas",
+        "⚡ Diseño de contenido visual para redes sociales",
+        "⚡ Edición y retoque fotográfico",
+        "⚡ Creación de infografías visuales y explicativas",
+        "⚡ Ilustración digital vectorial para proyectos creativos",
+      ],
+
+      softwareSkills: [
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "photoshop",
+          fontAwesomeClassname: "skill-icons:photoshop",
           style: {
-            color: "#000000",
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Indesignr",
+          fontAwesomeClassname: "logos:adobe-indesign",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "krita",
+          fontAwesomeClassname: "cib:krita",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Adobe illustrator",
+          fontAwesomeClassname: "logos:adobe-illustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+      ],
+    },
+    {
+      title: "Video Production",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Edición de videos para redes sociales, YouTube y comerciales",
+        "⚡ Corrección de color y mejora visual de material audiovisual",
+        "⚡ Producción de animaciones básicas",
+        "⚡ Diseño de intros y outros para contenido audiovisual",
+        "⚡ Creación de efectos de transición personalizados",
+        "⚡ Sincronización de audio y montaje narrativo",
+      ],
+
+      softwareSkills: [
+        {
+          skillName: "Adobe Premiere Pro",
+          fontAwesomeClassname: "logos:adobe-premiere",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "DaVinci Resolve",
+          fontAwesomeClassname: "simple-icons:davinciresolve",
+          style: {
+            color: "#F58536", // Naranja característico de DaVinci Resolve
+          },
+        },
+        {
+          skillName: "Audacity",
+          fontAwesomeClassname: "file-icons:audacity",
+          style: {
+            color: "#1AABE2", // Azul característico de Audacity
+          },
+        },
+        {
+          skillName: "OBS",
+          fontAwesomeClassname: "simple-icons:obsstudio",
+          style: {
+            color: "#000000", // Negro característico del logo de OBS
           },
         },
       ],
@@ -684,9 +542,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Proyectos",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Como diseñador gráfico formado en Multimedia y Producción Audiovisual, integro herramientas de última tecnología en mis proyectos. Combino creatividad visual con técnicas de Machine Learning para desarrollar soluciones innovadoras en diseño, producción audiovisual y el diseño de aplicaciones web.",
   avatar_image_path: "projects_image.svg",
 };
 
