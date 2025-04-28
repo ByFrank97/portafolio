@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Dibujo 1",
+      "name": "Dibujo",
       "createdAt": "2013-04-29T20:41:33Z",
       "img": "/images/dibujo1.jpg",
       "description": "📦  Elaboración propia.",
@@ -15,7 +15,7 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Dibujo 2",
+      "name": "Dibujo",
       "createdAt": "2013-04-29T20:41:33Z",
       "img": "/images/dibujo2.jpg",
       "description": "📦  Elaboración propia.",
@@ -28,9 +28,139 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Dibujo 1",
+      "name": "Dibujo",
       "createdAt": "2013-04-29T20:41:33Z",
-      "img": "dibujo1",
+      "img": "/images/dibujo4.jpg",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Dibujo",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/dibujo3.jpg",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Emote",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/emote1.png",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Emote",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/emote2.png",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Emote",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/emote3.png",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Emote",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/emote4.png",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Logo",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/logo1.png",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Logo",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/logo0.jpg",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Diseño",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/diseño1.jpg",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Diseño",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/alohacafe.jpg",
+      "description": "📦  Elaboración propia.",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "material-symbols:draw-outline"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Diseño",
+      "createdAt": "2013-04-29T20:41:33Z",
+      "img": "/images/alohacafegame.jpg",
       "description": "📦  Elaboración propia.",
       "languages": [
         {
